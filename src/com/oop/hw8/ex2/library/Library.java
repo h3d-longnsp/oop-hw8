@@ -9,10 +9,6 @@ public class Library {
         this.rents = rents;
     }
 
-    public Rent[] getRents() {
-        return rents;
-    }
-
     public Rent getLongestRent() {
         if (rents == null || rents.length == 0) {
             return null; // No rents in the library

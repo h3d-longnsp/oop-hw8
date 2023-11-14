@@ -1,8 +1,8 @@
 package com.oop.hw8.ex2.library;
 
 public class Item {
-    private String title;
-    private int year;
+    private final String title;
+    private final int year;
 
     public Item(String title, int year) {
         this.title = title;

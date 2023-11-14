@@ -1,7 +1,5 @@
 package com.oop.hw8.ex2.library;
 
-import java.util.Objects;
-
 public class Student {
     private final String id;
     private final String firstName;
